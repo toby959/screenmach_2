@@ -25,6 +25,7 @@ ___
 * 2 - Java versión 17.0.10: La versión del lenguaje de programación Java utilizada en este proyecto.
 * 3 - dotenv-java: Una biblioteca de Java que permite cargar variables de entorno desde un archivo .env en tu proyecto.
 * 4 - Scanner: Una herramienta fundamental en Java para la entrada de datos por consola, lo que permite interactuar con el usuario de manera efectiva.
+* 5 - URLEncoder: Convierte caracteres especiales y espacios en un formato seguro para URLs.
 ___
 
 
@@ -80,6 +81,8 @@ ___
 
 
 ![Imagen Carpetas](URL_de_la_imagen)
+
+![Imagen Distribucion Serie](image4.png)
 
 ## Licencia 📜
 

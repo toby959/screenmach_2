@@ -1,6 +1,7 @@
 package com.toby959.screenmatch_2;
 
 import com.toby959.screenmatch_2.main.Main;
+import com.toby959.screenmatch_2.main.StreamExamples;
 import com.toby959.screenmatch_2.model.DataEpisode;
 import com.toby959.screenmatch_2.model.DataSeason;
 import com.toby959.screenmatch_2.model.DataSeries;
@@ -52,9 +53,13 @@ public class Screenmatch2Application implements CommandLineRunner {
 		}
 		seasons.forEach(System.out::println);
 
-*/
+||||||||||||||||||||||  example two   |||||||||||||||||||||||||||||||||||||*/
+
 		Main main = new Main();
 		main.showTheMenu();
+//||||||||||||||||||||  example tree  ||||||||||||||||||||||||
+		//StreamExamples examples = new StreamExamples();
+		//examples.showExample();
 	}
 }
 
