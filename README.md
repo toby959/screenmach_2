@@ -8,8 +8,8 @@
 ![Badge en Desarollo](https://img.shields.io/badge/STATUS-EN%20DESAROLLO-green)&nbsp;&nbsp;&nbsp;![Java 17](https://img.shields.io/badge/java-17-blue?logo=java)&nbsp;&nbsp;&nbsp;![Version](https://img.shields.io/badge/version-v1.0-COLOR.svg)&nbsp;&nbsp;&nbsp;[![MIT License](https://img.shields.io/badge/licencia-MIT-blue.svg)](LICENSE)&nbsp;&nbsp;&nbsp;
 
 # Descripción 📖
-Este proyecto es una API de Películas que permite realizar consultas por consola sobre títulos. Proporciona el título,
-el año de lanzamiento y la duración de las películas. Utiliza la  **OMDb API** para obtener la información de las   
+Este proyecto es una API de Películas que permite realizar consultas por consola sobre títulos. Proporciona el título;
+el año de lanzamiento; evaluacion de los puntajes y la duración de las películas. Utiliza la  **OMDb API** para obtener la información de las   
 películas junto con sus respectivos datos. Puedes encontrar más información sobre esta API en su [web](https://www.omdbapi.com/)
 ___ 
 
@@ -26,6 +26,14 @@ ___
 * 3 - dotenv-java: Una biblioteca de Java que permite cargar variables de entorno desde un archivo .env en tu proyecto.
 * 4 - Scanner: Una herramienta fundamental en Java para la entrada de datos por consola, lo que permite interactuar con el usuario de manera efectiva.
 * 5 - URLEncoder: Convierte caracteres especiales y espacios en un formato seguro para URLs.
+* 6 - stream(): introducida en Java 8, proporciona una forma eficiente y funcional de procesar colecciones de datos.
+* 7 - map(): en Java Stream API es una operación intermedia que se utiliza para transformar los elementos de un flujo (stream) de un tipo a otro.
+* 8 - filter(): en Java Streams es una operación intermedia que permite seleccionar elementos de un flujo (stream) que cumplen con una condición específica definida por un Predicate.
+* 9 - flatMap(): en Java Stream API es una operación intermedia que se utiliza para transformar y aplanar los elementos de un flujo (stream) de un tipo en otro, permitiendo manejar estructuras de datos más complejas, como listas de listas.
+* 10 - collect(): en Java Stream API es una operación terminal que se utiliza para transformar los elementos de un flujo (stream) en una colección, como una lista, conjunto o mapa.
+* 11 - java.time: proporciona una API moderna y mejorada para trabajar con fechas y horas, introducida en Java 8.
+* 12 - DoubleSummaryStatistics: es una clase en Java que se utiliza para recopilar estadísticas sobre un flujo de valores de tipo double. Introducida en Java 8, permite calcular de manera eficiente el conteo, la suma, el promedio, el valor mínimo y el máximo de un conjunto de datos.
+* 13 - Math.round(): en Java se utiliza para redondear un número al entero más cercano.
 ___
 
 
@@ -43,7 +51,7 @@ ___
 ```bash
 "http://www.omdbapi.com/?t="
 ```
-#### En nuestro proyecto, se muestran los datos de: "Título", "Fecha de Lanzamiento" y "Duración". Además, los títulos se guardan en una carpeta dentro de nuestro proyecto.
+#### En nuestro proyecto, se muestran los datos de las series: "Título"; "Total de Temporadas"; "Evaluaciones"; "Buscar titulos por frase"; "Puntuacion por temporada"; "Puntuacion media"; "Puntuacion por episodio mejor evaluado"; "Puntuacion por episodio peor evaluado". 
 #### Interfaz de Usuario: Ofrece una interfaz simple y amigable basada en la consola.
 #### Cuenta con más de 280.000 pósters, es una herramienta gratuita y de fácil acceso que permite obtener información detallada sobre películas y series.
 #### Debes registrarte para obtener la API KEY:
@@ -83,6 +91,8 @@ ___
 ![Imagen Carpetas](image3.png)
 
 ![Imagen Distribucion Serie](image4.png)
+
+![Imagen Consola](image5.png)
 
 ## Licencia 📜
 
