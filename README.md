@@ -24,16 +24,21 @@ ___
 * 1 - IntelliJ IDEA Community Edition: Un entorno de desarrollo integrado (IDE) para Java que facilita la programación.
 * 2 - Java versión 17.0.10: La versión del lenguaje de programación Java utilizada en este proyecto.
 * 3 - dotenv-java: Una biblioteca de Java que permite cargar variables de entorno desde un archivo .env en tu proyecto.
-* 4 - Scanner: Una herramienta fundamental en Java para la entrada de datos por consola, lo que permite interactuar con el usuario de manera efectiva.
-* 5 - URLEncoder: Convierte caracteres especiales y espacios en un formato seguro para URLs.
-* 6 - stream(): introducida en Java 8, proporciona una forma eficiente y funcional de procesar colecciones de datos.
-* 7 - map(): en Java Stream API es una operación intermedia que se utiliza para transformar los elementos de un flujo (stream) de un tipo a otro.
-* 8 - filter(): en Java Streams es una operación intermedia que permite seleccionar elementos de un flujo (stream) que cumplen con una condición específica definida por un Predicate.
-* 9 - flatMap(): en Java Stream API es una operación intermedia que se utiliza para transformar y aplanar los elementos de un flujo (stream) de un tipo en otro, permitiendo manejar estructuras de datos más complejas, como listas de listas.
-* 10 - collect(): en Java Stream API es una operación terminal que se utiliza para transformar los elementos de un flujo (stream) en una colección, como una lista, conjunto o mapa.
-* 11 - java.time: proporciona una API moderna y mejorada para trabajar con fechas y horas, introducida en Java 8.
-* 12 - DoubleSummaryStatistics: es una clase en Java que se utiliza para recopilar estadísticas sobre un flujo de valores de tipo double. Introducida en Java 8, permite calcular de manera eficiente el conteo, la suma, el promedio, el valor mínimo y el máximo de un conjunto de datos.
-* 13 - Math.round(): en Java se utiliza para redondear un número al entero más cercano.
+* 4 - jackson-databind: es un componente esencial de la biblioteca Jackson, que se utiliza para convertir entre JSON y objetos Java (POJOs).
+* 5 - Scanner: Una herramienta fundamental en Java para la entrada de datos por consola, lo que permite interactuar con el usuario de manera efectiva.
+* 6 - URLEncoder: Convierte caracteres especiales y espacios en un formato seguro para URLs.
+* 7 - stream(): introducida en Java 8, proporciona una forma eficiente y funcional de procesar colecciones de datos.
+* 8 - map(): en Java Stream API es una operación intermedia que se utiliza para transformar los elementos de un flujo (stream) de un tipo a otro.
+* 9 - filter(): en Java Streams es una operación intermedia que permite seleccionar elementos de un flujo (stream) que cumplen con una condición específica definida por un Predicate.
+* 10 - flatMap(): en Java Stream API es una operación intermedia que se utiliza para transformar y aplanar los elementos de un flujo (stream) de un tipo en otro, permitiendo manejar estructuras de datos más complejas, como listas de listas.
+* 11 - peek(): se utiliza principalmente en el contexto de las streams (flujos) para realizar operaciones intermedias. Permite inspeccionar los elementos de un flujo sin modificarlo.
+* 12 - find(): se utiliza para buscar subsecuencias en una cadena de texto que coincidan con un patrón definido por una expresión regular. Este método es parte de la clase Matcher, que se utiliza en combinación con la clase Pattern para trabajar con expresiones regulares.
+* 13 - collect(): en Java Stream API es una operación terminal que se utiliza para transformar los elementos de un flujo (stream) en una colección, como una lista, conjunto o mapa.
+* 14 - java.time: proporciona una API moderna y mejorada para trabajar con fechas y horas, introducida en Java 8.
+* 15 - DoubleSummaryStatistics: es una clase en Java que se utiliza para recopilar estadísticas sobre un flujo de valores de tipo double. Introducida en Java 8, permite calcular de manera eficiente el conteo, la suma, el promedio, el valor mínimo y el máximo de un conjunto de datos.
+* 16 - Math.round(): en Java se utiliza para redondear un número al entero más cercano.
+* 17 - Optional(): introducida en Java 8, es una herramienta diseñada para manejar la ausencia de valores de manera más segura y evitar excepciones de puntero nulo (NullPointerException).
+* 18 - Lambda -> introducida en Java 8, son una característica que permite representar funciones anónimas de manera concisa. Estas expresiones son especialmente útiles para trabajar con colecciones y facilitar la programación funcional en Java. 
 ___
 
 
