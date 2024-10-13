@@ -48,7 +48,7 @@ ___
 git clone
 <https://github.com/toby959/screenmatch_2.git>
 ```
-2 - Compila y ejecuta el archivo MainWithSearch.java.
+2 - Compila y ejecuta el archivo Screenmatch2Application.java.
 ___
 
 # Funcionalidades 📦
