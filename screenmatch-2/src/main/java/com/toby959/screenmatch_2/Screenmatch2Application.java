@@ -31,7 +31,7 @@ public class Screenmatch2Application implements CommandLineRunner {
 	public void run(String... args) throws Exception {
 /*
 		var consumeApi = new ConsumeAPI();
-		var json = consumeAPI.getData("https://www.omdbapi.com/?t=game+of+thrones&apikey=2731cf3c");
+		var json = consumeAPI.getData("https://www.omdbapi.com/?t=game+of+thrones&apikey=??????????");
 
 //        var json = consumeAPI.getData("https://cofee.alexflipnote.dev/random.json");
 		System.out.println(json);
@@ -40,13 +40,13 @@ public class Screenmatch2Application implements CommandLineRunner {
 		var data = convert.getData(json, DataSeries.class);
 		System.out.println(data);
 //############ TWO RECORD ###########################
-		json = consumeApi.getData("https://www.omdbapi.com/?t=game+of+thrones&Season=1&episode=1&apikey=2731cf3c");
+		json = consumeApi.getData("https://www.omdbapi.com/?t=game+of+thrones&Season=1&episode=1&apikey=??????");
 		var inform = convert.getData(json, DataEpisode.class);
 		System.out.println(inform);
 //############ TREE RECORD ##########################
 		List<DataSeason> seasons = new ArrayList<>();
 		for (int i = 1; i <= data.totalSeasons(); i++) {
-			json = consumeApi.getData("https://www.omdbapi.com/?t=game+of+thrones&Season=" + i + "&apikey=2731cf3c");
+			json = consumeApi.getData("https://www.omdbapi.com/?t=game+of+thrones&Season=" + i + "&apikey=???????");
 
 			var dataseasons = convert.getData(json, DataSeason.class);
 			seasons.add(dataseasons);

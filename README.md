@@ -65,7 +65,7 @@ http://www.omdbapi.com/?apikey=[APIKEY]&
 ```
 ___   
 
-![Pagina OMDb](image1.png)
+![Pagina OMDb](image_A.png)
 ___
 # Colaboraciones 🎯
 Si deseas contribuir a este proyecto, por favor sigue estos pasos:
@@ -90,14 +90,26 @@ Gracias por tu interés en contribuir a este proyecto. ¡Esperamos tus aportes!
 ___
 # Imagenes:
 
+![Imagen Consola](image_B.png)
+
+
+![Imagen Carpetas](image_C.png)
+
+![Imagen Distribucion Serie](image_D.png)
+
+![Imagen Consola](image1.png)
+
 ![Imagen Consola](image2.png)
 
+![Imagen Consola](image3.png)
 
-![Imagen Carpetas](image3.png)
-
-![Imagen Distribucion Serie](image4.png)
+![Imagen Consola](image4.png)
 
 ![Imagen Consola](image5.png)
+
+![Imagen Consola](image6.png)
+
+![Imagen Consola](image7.png)
 
 ## Licencia 📜
 

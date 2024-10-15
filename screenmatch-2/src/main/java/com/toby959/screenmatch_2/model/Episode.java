@@ -18,17 +18,7 @@ public class Episode {
         this.season = number;
         this.title = episode.title();
         this.numberEpisode = episode.numberEpisode();
-//#################################################
-//        try {
-//            this.evaluation = Double.valueOf(episode.evaluation());
-//        } catch (NumberFormatException e) {
-//            this.evaluation = 0.0;
-//        }
 
-//        this.releaseDate = LocalDate.parse(episode.releaseDate());
-//    }
-//#################################################
-//  -- evaluation management with validation
         try {
         if (episode.evaluation() != null && !episode.evaluation().equals("N/A") && !episode.evaluation().equals("null")) {
             this.evaluation = Double.valueOf(episode.evaluation());

@@ -1,6 +1,5 @@
 package com.toby959.screenmatch_2.service;
 
-import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Service;
 
 import java.io.IOException;
@@ -29,5 +28,3 @@ public class ConsumeAPI {
         return response.body();
     }
 }
-// -- www.omdbapi.com/?t=game+of+thrones&Season=1&apikey=new --
-                                       // x season | all
